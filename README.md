@@ -1,15 +1,38 @@
-Welcome to your new dbt project!
+# 🏥 Health Analytics — DBT + Snowflake Project
 
-### Using the starter project
+This repository is an **active DBT + Snowflake integration project** created by *Sai Sudha Saranu* for learning, practice, and demos in healthcare data analytics.
 
-Try running the following commands:
-- dbt run
-- dbt test
+---
 
+## 🚀 Purpose
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project helps practice:
+- Connecting **DBT Core** to **Snowflake**
+- Writing DBT **models**, **macros**, and **tests**
+- Documenting and visualizing **data lineage**
+- Structuring transformations for healthcare analytics
+
+---
+
+## 🧱 Folder Structure
+
+| Folder / File | Description |
+|----------------|-------------|
+| `models/` | Core transformation SQL models |
+| `macros/` | Custom Jinja macros |
+| `analyses/` | Exploration queries |
+| `snapshots/` | Change-tracking snapshots |
+| `seeds/` | Raw CSV seed files |
+| `tests/` | Custom DBT test scripts |
+| `.gitignore` | Ignores environment and credentials |
+| `requirements.txt` | Python dependencies |
+| `dbt_project.yml` | Main DBT configuration file |
+
+---
+
+## ⚙️ Setup on Local Machine
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/saisudhasaranu/health_analytics.git
+   cd health_analytics
