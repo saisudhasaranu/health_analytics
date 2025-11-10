@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+
+# dbt build artifacts
+target/
+dbt_packages/
+logs/
+
+# Local dbt profiles (never commit credentials)
+.dbt/
+profiles.yml
+
+# macOS system files
+.DS_Store
+target/
+dbt_packages/
+logs/
